@@ -1,0 +1,365 @@
+
+
+
+
+@font-face{
+
+ 	font-family: Quicksand_Light;
+ 	src:url('Quicksand_Light.eot') format('embedded-opentype'),
+ 	url('Quicksand_Light.otf') format('opentype');
+ 	
+ }
+
+
+@font-face{
+
+ 	font-family: CallingCode-Regular;
+ 	src:url('CallingCode-Regular.eot') format('embedded-opentype'),
+ 	url('CallingCode-Regular.otf') format('opentype');
+ 	
+ }
+*{
+	box-sizing: border-box; 
+	/* This makes the widths of elements more consistent
+		refrence: https://css-tricks.com/box-sizing/ */
+}
+
+li{
+	text-align: center;
+	  list-style-type: none;
+	  font-size: 1.3em;
+	  font-family:"CallingCode-Regular";
+	 
+
+
+}
+
+/* On screens that are 992px or less, set the background color to blue IPHONE*/
+@media screen and (max-width: 992px) {
+  p {
+   
+   font-size:1.5em;
+  }
+a{
+	font-size: 1.3em;
+}
+
+h1{
+	font-size: 3em;
+}
+header{
+	font-size: 1.8em;
+
+}
+button{
+	font-size: 20px;
+}
+
+body{background-attachment: scroll;}
+
+
+
+
+
+
+}
+
+/* On screens that are 600px or less, set the background color to olive DESKTOP*/
+@media screen and (max-width: 600px) {
+  p{
+  	color: black;
+  }
+}
+
+
+
+
+#mybutton {
+  position: fixed;
+  bottom: -4px;
+  left: 10px;
+}
+
+.drops{
+ -webkit-transform: translateZ(999px) scale(1.1);
+    transform: translateZ(999px) scale(1.1);
+  
+    opacity: 0.5;
+
+}
+
+.projectsp{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+.button {
+    background-color: white;
+    font-family: "CallingCode-Regular";
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-color: black;
+    border-radius: 25px;
+    cursor: pointer;
+    border-width: 0.1em;
+
+}
+.buttonBack {
+    background-color: white;
+    font-family: "Quicksand_Light";
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-color: black;
+    border-radius: 100px;
+    cursor: pointer;
+    border-width: 0em;
+
+}
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.buttonBack:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+div.about{
+width:100%;
+float:center;
+padding-left:10%;
+padding-right:10%;
+padding-bottom:0%;
+
+
+}
+
+div.contact{
+width:100%;
+float:center;
+padding-left:10%;
+padding-right:10%;
+padding-bottom:10%;
+padding-top: 0%;
+
+}
+div.inner{
+	padding-top: 5%;
+	padding-right: 50px;
+	padding-left: 50px;
+	font-size:20px;
+
+
+}
+div.portfolio{
+width:100%;
+float:center;
+padding-left:10%;
+padding-right:10%;
+padding-bottom:10%;
+padding-top: 0%;
+
+}
+
+
+
+
+
+
+
+div.boxBanner{
+
+	text-align: center;
+	padding-top: 15em;
+	padding-bottom:10em;
+}
+iframe{
+	width:25em;
+	height:40em;
+	
+}
+
+body{
+	margin: 0px; 
+	font-family: Quicksand_Light;
+	text-align: center;
+	 background-image: url("backgroundv2.png");
+  /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  
+
+
+}
+
+section{
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+header{
+	background-color: #f7f7f7;
+	color: black; 
+	padding-top: 2em;
+	padding-bottom: 2em;
+	width:100%;
+	font-size: 2em;
+
+
+
+}
+
+nav{
+	width: 100%;
+	height: 4em;
+	background-color: #f7f7f7;
+	color: black;
+	font-size:2em;
+	padding-top: 1em;
+	position: fixed;
+	left: 0;
+    top: 0;
+    z-index: 101;
+    
+
+
+}
+nav select {
+  display: none;
+}
+@media (max-width: 960px) {
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
+}
+
+nav a, nav h3{
+	float: center;
+	margin: 0px;
+	line-height: 60px;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-decoration: none;
+		padding-right:1em;
+	padding-left:1em;
+	padding-bottom:1em;
+	padding-top:1em;
+	color:black;
+
+}
+h1{
+		padding-right:1em;
+	padding-left:1em;
+	padding-bottom:1em;
+	padding-top:6em;
+	font-size:1em;
+	/*font-family:"CallingCode-Regular";*/
+
+}
+iframe{
+	border-radius: 50px;
+
+
+}
+
+nav a:hover{
+	text-decoration: underline; /* Hover styles to let people know they can click it */
+	background-color: aliceblue;
+	padding-right:1em;
+	padding-left:1em;
+	padding-bottom:1.1em;
+	padding-top:1.5em;
+	text-decoration: none;
+
+}
+footer{
+	padding:5%;
+}
+
+
+
+/* Simple grid */
+.g-row{
+	width: 100%;
+	overflow: hidden;
+}
+
+.g-row img{
+	width: 100%; /*This makes all images in grids to be the size of their cell */
+}
+
+.g-50{
+	width: 50%;
+	float: left;
+	font-size:20px;
+
+}
+
+.g-25{
+	width: 25%;
+	float: left;
+	font-size:20px;
+
+}
+.g-33{
+	width: 33.333333%;
+	float: left;
+	font-size:20px;
+
+}
+
+.g-100{
+	width: 100%;
+	float: center;
+	font-size:20px;
+
+}
+
+
+
+.show{
+	border: 1px ;
+	padding: 2px;
+	padding-bottom: 15%
+
+}
+
+.padded{
+	padding: 20px; /* I add this to cells to add a little padding*/
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+ 
+  padding: 10px;
+}
+.grid-item {
+  
+
+
+  padding: 20px;
+ 
+  text-align: center;
+}
+
