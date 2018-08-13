@@ -84,6 +84,7 @@ body{background-attachment: scroll;}
   position: fixed;
   bottom: -4px;
   left: 10px;
+  padding-left: 2%;
 }
 
 .drops{
@@ -237,7 +238,7 @@ section{
 }
 
 header{
-	background-color: #E2F4FC;
+	background-color: #EEFAFF;
 	color: black; 
 	padding-top: 2em;
 	padding-bottom: 2em;
@@ -252,7 +253,7 @@ header{
 nav{
 	width: 100%;
 	height: 4em;
-	background-color: #E2F4FC;
+	background-color: #EEFAFF;
 	color: black;
 	font-size:2em;
 	padding-top: 1em;
